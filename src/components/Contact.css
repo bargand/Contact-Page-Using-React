@@ -1,0 +1,99 @@
+.mainContainer{
+    height: 88vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.UpperContainer{
+    height: 10vh;
+    width: 100%;
+    /* background-color: rgb(251, 255, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LowerContainer{
+    height: 78vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+.LeftContainer{
+    height: 78vh;
+    width: 50%;
+    /* background-color: green; */
+}
+.LeftContainerUpper{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.LeftContainerUpper iframe{
+    border-radius: 10px;
+}
+.LeftContainerLower{
+    display: flex;
+    padding-left: 58px;
+    padding-top: 30px;
+    color: #000;
+}
+.LeftContainerLower ul{
+    /* line-height: 20px; */
+    font-size: 20px;
+    list-style: none;
+}
+.RightContainer{
+    height: 78vh;
+    width: 50%;
+    /* background-color: rgb(38, 0, 128); */
+    display: flex;
+    align-items: center;
+
+}
+
+
+.container {
+    /* max-width: 400px; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #ffffff; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 30px;
+    /* font-weight: bold; */
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #150a7c;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0f0758;
+    transition: all ease-in-out 0.5s;
+}
